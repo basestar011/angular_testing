@@ -1,27 +1,25 @@
-# Testing
+# Angular Testing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+목차
+-----
+1. 테스트 간단 개요 & 코드 커버리지
+    - [1.testing_outline.md](./1.testing_outline.md)
+2. 서비스 테스트
+    - [2.testing_services.md](./2.testing_services.md)
+3. 컴포넌트 테스트 기본
+    - [3.testing_components.md](./3.testing_components.md)
+4. 컴포넌트 테스트 시나리오 가이드
+    - 작성예정
+5. 어트리뷰트 디렉티브 테스트
+    - 작성예정
+6. 파이프 테스트
+    - 작성예정
+7. 테스트 디버깅
+    - 작성예정
+8. 테스트 유틸리티 API
+    - 작성예정
 
-## Development server
+<hr/>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [공식 한글 가이드 문서](https://angular.kr/guide/testing) 참조하여 작성
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
