@@ -9,7 +9,7 @@
 3. 컴포넌트 테스트 기본
     - [3.testing_components.md](./3.testing_components.md)
 4. 컴포넌트 테스트 시나리오 가이드
-    - 작성예정
+    - [4.testing_component_scenario.md](./4.testing_component_scenario.md)
 5. 어트리뷰트 디렉티브 테스트
     - 작성예정
 6. 파이프 테스트
