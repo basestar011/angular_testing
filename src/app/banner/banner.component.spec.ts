@@ -7,14 +7,15 @@ describe('BannerComponent', () => {
   let fixture: ComponentFixture<BannerComponent>;
 
   beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({declarations: [ BannerComponent ]}).compileComponents();
+    TestBed
+      .configureTestingModule({declarations: [ BannerComponent ]})
+      .compileComponents()
+      .then(() => {
+        fixture = TestBed.createComponent(BannerComponent);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+      });
   }));
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(BannerComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
 
   it('should create', () => {
     expect(component).toBeDefined();
